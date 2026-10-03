@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'comic';
+    src: url('comicneuesansid/ComicNeueSansID.ttf') format('truetype');
+}
+
+.he {
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: black;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+header>p>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header>h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+}
+
+main>section>p {
+    font-family: 'comic';
+    width: 187px;
+    line-height: 30px;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.ba {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.b1 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.18);
+    color: white;
+    display: inline-block;
+
+}
+
+.ba1 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.b2 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.18);
+    color: white;
+    display: inline-block;
+
+}
